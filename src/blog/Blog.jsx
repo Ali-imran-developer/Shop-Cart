@@ -26,6 +26,7 @@ const Blog = () => {
                           <Link to={`/blog/${blog.id}`}>
                             <h4>{blog.title}</h4>
                           </Link>
+                          
                           <div className="meta-post">
                             <ul className="lab-ul">
                               {
